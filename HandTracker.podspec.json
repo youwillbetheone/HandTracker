@@ -6,7 +6,7 @@
   "homepage": "https://github.com/willbetheone",
   "license": {
     "type": "MIT License",
-    "file": "https://github.com/willbetheone/HandTracker_iOS/blob/main/LICENSE"
+    "file": "https://github.com/willbetheone/HandTracker/blob/main/LICENSE"
   },
   "authors": {
     "zhangdong": "zanderdev@163.com"
@@ -15,7 +15,7 @@
     "ios": "10.2"
   },
   "source": {
-    "http": "https://github.com/willbetheone/HandTracker_iOS/releases/download/0.1.0/HandTracker.framework.zip"
+    "http": "https://github.com/willbetheone/HandTracker/releases/download/0.1.0/HandTracker.framework.zip"
   },
 
   "vendored_frameworks": [
