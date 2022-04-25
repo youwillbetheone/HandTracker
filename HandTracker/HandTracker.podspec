@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HandTracker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HandTracker.'
+  s.summary          = 'A Hand Tracker Framework for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+HandTracker is a framework that used google's mediapipe for the mobile platform.
                        DESC
 
-  s.homepage         = 'https://github.com/zanderdev@163.com/HandTracker'
+  s.homepage         = 'https://github.com/youwillbetheone/HandTracker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zanderdev@163.com' => '42705961+willbetheone@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/zanderdev@163.com/HandTracker.git', :tag => s.version.to_s }
+  s.author           = { 'william' => 'zanderdev@163.com' }
+  s.source           = { :git => 'https://github.com/youwillbetheone/HandTracker/releases/download/0.1.0/HandTracker.framework.zip', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

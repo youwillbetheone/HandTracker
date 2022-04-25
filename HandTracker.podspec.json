@@ -3,25 +3,26 @@
   "version": "0.1.0",
   "summary": "A Hand Tracker Framework for iOS.",
   "description": "HandTracker is a framework that used google's mediapipe for the mobile platform.",
-  "homepage": "https://github.com/willbetheone",
+  "homepage": "https://github.com/youwillbetheone/HandTracker",
   "license": {
     "type": "MIT License",
-    "file": "https://github.com/willbetheone/HandTracker/blob/main/LICENSE"
+    "file": "LICENSE"
   },
   "authors": {
     "zhangdong": "zanderdev@163.com"
   },
   "platforms": {
-    "ios": "10.2"
+    "ios": "9.0"
   },
   "source": {
-    "http": "https://github.com/willbetheone/HandTracker/releases/download/0.1.0/HandTracker.framework.zip"
+    "http": "https://github.com/youwillbetheone/HandTracker/releases/download/0.1.0/HandTracker.framework.zip"
   },
 
   "vendored_frameworks": [
     "HandTracker.framework"
-  ],
-   "pod_target_xcconfig": {
+  ]
+
+  , "pod_target_xcconfig": {
      "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
    },
    "user_target_xcconfig": {
